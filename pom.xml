@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.qirsam</groupId>
     <artifactId>first-maven</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <modules>
         <module>database</module>
         <module>service</module>
@@ -21,13 +20,14 @@
         <connection>scm:git:git@github.com:qirsam/first-maven.git</connection>
         <developerConnection>scm:git:git@github.com:qirsam/first-maven.git</developerConnection>
         <url>https://github.com/qirsam/first-maven</url>
-    </scm>
+      <tag>first-maven-1.0.0</tag>
+  </scm>
 
     <properties>
         <app.env>dev</app.env>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <spring.version>5.3.19</spring.version>
     </properties>
 
